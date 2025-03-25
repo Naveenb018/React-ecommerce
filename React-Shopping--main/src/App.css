@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title img{
+  height: 50px;
+  width: 50px;
+}
+body{
+  border: 4px solid rgb(187, 255, 84, .6);
+}
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:rgb(245, 24, 179);
+}
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 13px;
+}
+.left{
+  flex: 4;
+  
+}
+.center{
+  flex: 4;
+  
+}
+.search{
+flex:2 ;
+
+}
+.right{
+  display: flex;
+  flex: 4;
+  justify-content: space-between;
+  padding: 0px 10px;
+
+}
+.bannerBox{
+  margin: 10px 0px;
+}
+.bannerBox img{
+  width:100% ;
+  
+}
+#lines{
+  color: rgb(245, 24, 179);
+  background-color: rgb(247, 42, 158);
+}
+#lines-Women{
+  color: rgb(247, 42, 158);
+  background-color: rgb(247, 42, 158);
+}
+.menimages{
+display: flex;
+flex-wrap: wrap;
+padding: 0px 30px;
+padding-left: 120px;
+}
+.menimages img{
+  width: 250px;
+  padding: 10px 10px ;
+
+}
+.Price{
+  font-weight: bold;
+
+  margin-left: 5px;
+}
+.itemName{
+  padding-bottom:20px;
+  padding-left: 5px;
+}
+.itemcontainer:hover{
+  background-color: rgba(255, 255, 255, 0.405);
+  border: 1px solid rgba(110, 109, 109, 0.193);
+  border-radius: 5px;
+
+}
+s{
+  color: rgb(79, 79, 79);
+  font-weight: 300;
+}
